@@ -1,1 +1,7 @@
-bg{background-color: orange; }
+.bg{background-color: orange; }
+
+.bg1{background-color: rgb(21, 238, 68); }
+.bg2{background-color: rgb(74, 26, 185); }
+
+.div_width{width: 50%;}
+.div_height{height: 150px; padding-bottom: 30px;}
