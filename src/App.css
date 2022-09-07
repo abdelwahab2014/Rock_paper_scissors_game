@@ -4,4 +4,5 @@
 .bg2{background-color: rgb(74, 26, 185); }
 
 .div_width{width: 50%;}
-.div_height{height: 150px; padding-bottom: 30px;}
+.div_height{height: 150px; padding: 50px;}
+.score{padding:50px; align-items: center; }
