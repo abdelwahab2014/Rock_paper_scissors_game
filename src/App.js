@@ -15,17 +15,17 @@ function App (){
             case 1:
                 if(selection === 1){
                 return (
-                    <div>Your Selection is {list[selection-1]} = Com Selection is {list[r-1]} <br/> Draw !</div>
+                    <div>Your Selection is {list[selection-1]} <br/> Com Selection is {list[r-1]} <br/> Draw !</div>
                 )}
                 if(selection === 2){
                 return (
-                    <div>Your Selection is {list[selection-1]} = Com Selection is {list[r-1]} <br/>
+                    <div>Your Selection is {list[selection-1]} <br/> Com Selection is {list[r-1]} <br/>
                     You Lose</div>
                 )}
 
                 if(selection === 3){
                 return (
-                    <div>Your Selection is {list[selection-1]} = Com Selection is {list[r-1]} <br/>
+                    <div>Your Selection is {list[selection-1]} <br/> Com Selection is {list[r-1]} <br/>
                     You Win !</div>
                 )}
                 
@@ -33,18 +33,18 @@ function App (){
            case 2: /*Case 2 */
            if(selection === 2){
                 return (
-                    <div>Your Selection is {list[selection-1]} = Com Selection is {list[r-1]} <br/>Draw !</div>
+                    <div>Your Selection is {list[selection-1]} <br/> Com Selection is {list[r-1]} <br/>Draw !</div>
                 )}
             
            if(selection === 1){
                 return (
-                    <div>Your Selection is {list[selection-1]} = Com Selection is {list[r-1]} <br/>
+                    <div>Your Selection is {list[selection-1]} <br/> Com Selection is {list[r-1]} <br/>
                     You Win !</div>
                 )}
             
           if(selection === 3){
                 return (
-                    <div>Your Selection is {list[selection-1]} = Com Selection is {list[r-1]} <br/>
+                    <div>Your Selection is {list[selection-1]} <br/> Com Selection is {list[r-1]} <br/>
                     You Lose</div>
                 )}
             
@@ -54,18 +54,18 @@ function App (){
            case 3:/*Case 2 */
            if(selection === 3){
                 return (
-                    <div>Your Selection is {list[selection-1]} = Com Selection is {list[r-1]} <br/>Draw !</div>
+                    <div>Your Selection is {list[selection-1]} <br/> Com Selection is {list[r-1]} <br/>Draw !</div>
                 )}
 
           if(selection === 1){
                 return (
-                    <div>Your Selection is {list[selection-1]} = Com Selection is {list[r-1]} <br/>
+                    <div>Your Selection is {list[selection-1]} <br/> Com Selection is {list[r-1]} <br/>
                     You Lose</div>
                 )}
 
           if(selection === 2){
                 return (
-                    <div>Your Selection is {list[selection-1]} = Com Selection is {list[r-1]} <br/>
+                    <div>Your Selection is {list[selection-1]} <br/> Com Selection is {list[r-1]} <br/>
                    You Win !</div>
                 )}
             break;
