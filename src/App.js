@@ -69,6 +69,8 @@ function App (){
                    You Win !</div>
                 )}
             break;
+            default:selection=0;
+          
         }
      })()}
        </div>
