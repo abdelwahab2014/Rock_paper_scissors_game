@@ -16,14 +16,14 @@ function App (){
             case 1:
                 if(selection === 1){
                 return (
-                    <div>Your Selection is {list[selection-1]} <br/> Com Selection is {list[r-1]} <br/> Draw !
+                    <div>Your Selection is {list[selection-1]} <br/> Com Selection is {list[r-1]} <br/> <mark>Draw !</mark>
                     <br/><img className='image_size' src="https://media.giphy.com/media/LXHJRRjnviw7e/giphy.gif" />
                     </div>
                 )}
                 if(selection === 2){
                 return (
                     <div>Your Selection is {list[selection-1]} <br/> Com Selection is {list[r-1]} <br/>
-                    You Lose<br/><img className='image_size' src="https://media.giphy.com/media/BEob5qwFkSJ7G/giphy.gif" /></div>
+                    <mark>You Lose</mark><br/><img className='image_size' src="https://media.giphy.com/media/BEob5qwFkSJ7G/giphy.gif" /></div>
                 )}
 
                 if(selection === 3){
